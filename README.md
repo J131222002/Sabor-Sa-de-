@@ -1,1 +1,61 @@
-# Sabor-Sa-de-
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoCharge - Energia Sustentável</title>
+    <link href="/styles/styles.css" rel="stylesheet" >
+</head>
+<body>
+    <header>
+        <h1>EcoCharge</h1>
+        <p>Soluções sustentáveis de carregamento para um futuro melhor</p>
+    </header>
+
+    <section id="produto">
+        <h2>Nosso Produto</h2>
+        <p>A EcoCharge oferece estações de carregamento movidas a energia solar, ideais para espaços públicos, eventos e empresas que desejam contribuir para um planeta mais verde.</p>
+        <img src="img/01.png" alt="Estação de carregamento EcoCharge">
+        <img src="img/02.jpeg" alt="Uso da estação EcoCharge em um parque">
+    </section>
+
+    <section id="equipe">
+        <h2>Nossa Equipe</h2>
+        <div class="membro">
+            <img src="img/07.jpeg" alt="Foto João Silva">
+            <p><strong>João Silva</strong> - CEO</p>
+        </div>
+        <div class="membro">
+            <img src="img/04.jpeg" alt="Foto Maria Souza">
+            <p><strong>Maria Souza</strong> - Engenheira de Produto</p>
+        </div>
+        <div class="membro">
+            <img src="img/06.jpeg" alt="Foto Pedro Almeida">
+            <p><strong>Pedro Almeida</strong> - Marketing</p>
+        </div>
+    </section>
+
+    <section id="formulario">
+        <h2>Inscreva-se para novidades</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" required>
+
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 EcoCharge - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
